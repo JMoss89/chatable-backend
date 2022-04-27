@@ -7,5 +7,6 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use('/', dialogFlowRouter);
+// require('./routes/dialogFlowRoutes')(app);
 
 module.exports = app;

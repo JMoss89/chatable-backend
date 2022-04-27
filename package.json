@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/JMoss89/chatable-backend#readme",
   "devDependencies": {
+    "dotenv": "^16.0.0",
     "eslint": "^8.14.0",
     "nodemon": "^2.0.15"
   },
