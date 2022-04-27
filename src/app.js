@@ -1,11 +1,10 @@
 const express = require ('express');
+const bodyParser = require('body-parser');
+const dialogFlowRouter = require('./routes/dialogFlowRoutes');
 
 const app = express();
 
-app.use(express.json());
+app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
-    res.send({'Hello': 'Chatable'});
-})
 
 module.exports = app;
