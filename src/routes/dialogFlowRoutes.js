@@ -24,7 +24,7 @@ dialogFlowRouter.post('/api/df_text_query', async (req, res) => {
         },
     };
     let responses = await sessionClient
-        .detechIntent(request)
+        .detectIntent(request)
 
     res.send(responses[0].queryResult);
 });
