@@ -1,5 +1,5 @@
-module.exports = {
-    googleProjectID: 'react-chatbot-testing-hdeb',
-    dialogFlowSessionID: 'chatable-session',
-    dialogFlowSessionLanguageCode: 'en-US'
+if (process.env.NODE_ENV === 'production') {
+    module.exports = require('./production');
+} else {
+    module.exports = require('./dev');
 }
