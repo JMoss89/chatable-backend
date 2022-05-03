@@ -6,7 +6,6 @@ const dialogFlowRouter = express.Router();
 dialogFlowRouter.get('/', (req, res) => {
     res.send({'Hello': 'Chatable'});
 });
-// this is a chatbot
 
 dialogFlowRouter.post('/api/df_text_query', async (req, res) => {
     let responses = await chatbot.textQuery(req.body.text, req.body.parameters);
