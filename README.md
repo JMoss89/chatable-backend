@@ -1,5 +1,9 @@
 # Chatable - backend 💬
-![alt - text](https://raw.githubusercontent.com/EmilyRoseCotter/chatable-front-end/master/src/assets/sunriseLogo.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EmilyRoseCotter/chatable-front-end/master/src/assets/sunriseLogo.png"
+  >
+</p>
+
 ***
 **Chatable app is an ongoing project** 💡
 
