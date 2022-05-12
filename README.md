@@ -30,6 +30,8 @@ Mental health illness can be hard to talk about sometimes. Chatable provides a s
 ![alt - text](https://raw.githubusercontent.com/EmilyRoseCotter/chatable-front-end/master/src/assets/desktop.png)
 
 ### Mobile view
+The colour palette, greeting grapic and inspirational quote changes at different intervals throughout the day. 
+
 ![alt - text](https://raw.githubusercontent.com/JMoss89/chatable-backend/master/src/assets/chatable-mobile.png)
 
 ## Installation ⌨️
